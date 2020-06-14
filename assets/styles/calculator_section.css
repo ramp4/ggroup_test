@@ -366,3 +366,6 @@
   text-transform: uppercase;
   margin: 0 0.65rem;
 }
+
+.phone_row-button:hover {
+  cursor: pointer;}
