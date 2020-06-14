@@ -1,0 +1,100 @@
+.form_section {
+  width: 100%;
+  height: 509px;
+  background-image: url(../images/form_section_bg.png);
+  background-repeat: repeat-x;
+  background-position: 26%;
+  position: relative;
+}
+
+.form_section_wrapper {
+  width: 95%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.form_wrapper {
+  top: 69px;
+  width: 19.625rem;
+  left: 12.5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 19.7rem;
+}
+
+.form_wrapper-name {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #9DA3D7;
+  width: 100%;
+  text-align: center;
+  font-family: MyriadPro-Semibold;
+}
+
+.form {
+  background-color: #9DA3D7;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: MyriadPro-Regular;
+  height: 17rem;
+  width: 22.5rem;
+  position: relative;
+}
+
+
+
+.form-tagline {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.035rem;
+  font-family: MyriadPro-Regular;
+  margin-top: 1.7rem;
+  color: #fff;
+}
+
+.form-phone {
+  width: 18.125rem;
+  height: 3rem;
+  border-style: none;
+  text-indent: 1rem;
+  font-size: 1.5rem;
+  margin-top: 1.4rem;
+}
+
+.form-button {
+  margin-top: 1.375rem;
+  width: 18.125rem;
+  height: 3rem;
+  border-style: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-color: #FFC087;
+  position: relative;
+}
+
+.form-button:hover {
+  cursor: pointer;
+}
+
+.alert_block {
+  display: none;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  vertical-align: text-bottom;
+  position: absolute;
+  background-color: #FFC087;
+  margin: 0;
+  bottom: -90px;
+}
+
+.alert_block--visible {
+  display: block;
+}

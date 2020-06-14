@@ -1,0 +1,22 @@
+{
+  "name": "ggroup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramp4/ggroup.git"
+  },
+  "author": "Artsem Balunda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramp4/ggroup/issues"
+  },
+  "homepage": "https://github.com/ramp4/ggroup#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

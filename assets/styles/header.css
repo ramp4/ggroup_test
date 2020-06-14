@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  height: 230px;
+  background-color: #dcdcdc
+}
+
+.header_wrapper {
+  width: 95%;
+  max-width: 960px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+  width: 273px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts-phone {
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: MyriadPro-Regular;
+  letter-spacing: 0.05rem;
+  text-decoration: none;
+  color: #777777;
+}
+
+.contacts-phone:hover {
+  color: #ffC087
+}

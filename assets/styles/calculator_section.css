@@ -1,0 +1,368 @@
+.calculator_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 99px;
+}
+
+.calculator_section-title {
+  color: #9DA3D7;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 2.25rem;
+  text-align: center;
+  font-family: MyriadPro-Semibold;
+}
+
+.calculator_form {
+  width: 100%;
+  max-width: 960px;
+}
+
+.window_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 960px;
+  margin-top: 2.1rem;
+}
+
+.window {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 11rem;
+}
+
+.window:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.window-image {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+  width: 100%;
+  height: 11rem;
+}
+
+.window-image_1 {
+  background-image: url(../images/window_1.png);
+  width: 3.5rem;
+}
+
+.window-image_2 {
+  background-image: url(../images/window_2.png);
+  width: 7rem;
+}
+
+.window-image_3 {
+  background-image: url(../images/window_3.png);
+  width: 10.5rem;
+}
+
+.window-image_4 {
+  background-image: url(../images/window_4.png);
+  width: 10.5rem;
+}
+
+.window-image_5 {
+  background-image: url(../images/window_5.png);
+  width: 10.5rem;
+}
+
+.window-name {
+  font-family: MyriadPro-Bold;
+  font-size: 0.875rem;
+}
+
+.window-name--selected {
+  color: #0099DE;
+  text-decoration: underline;
+}
+
+
+.calculator_form {
+  margin-top: 2.5rem;
+  min-height: 32rem;
+  border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  -moz-border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  -webkit-border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  -o-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  -webkit-box-shadow: 0px 0px 0.625rem 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 0.625rem 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 0.625rem 0px rgba(0, 0, 0, 0.25);
+}
+
+.select_row {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  height: 22rem;
+  width: 21.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-image {
+  height: 10.5rem;
+  width: 15rem;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.left-image::after {
+  content: "ширина";
+  position: absolute;
+  top: -30%;
+  left: 34%;
+  font-size: 1.4rem;
+  font-family: MyriadPro-SemiboldIt;
+}
+
+.left-image::before {
+  content: "высота";
+  position: absolute;
+  top: 43%;
+  left: -23%;
+  font-size: 1.4rem;
+  font-family: MyriadPro-SemiboldIt;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.left_inputs {
+  margin-top: 4rem;
+  width: 73%;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left_inputs-input {
+  height: 100%;
+  width: 5rem;
+  font-size: 2.25rem;
+  font-family: MyriadPro-Regular;
+  text-align: center;
+  border-radius: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+  -moz-border-radius: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+  -webkit-border-radius: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+  -o-radius: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+  border: 1px solid #AEAEAE;
+}
+
+.left_inputs-mark:before,
+.left_inputs-mark:after {
+  position: absolute;
+  font-family: MyriadPro-Regular;
+  font-size: 1.3rem;
+  top: -2.8rem;
+  width: 10rem;
+}
+
+.left_inputs-mark:before {
+  content: "ширина, см";
+  left: -7.5rem;
+}
+
+.left_inputs-mark:after {
+  content: "высота, см";
+  right: -11.5rem;
+}
+
+
+.left_inputs-mark {
+  position: relative;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-image: url(../images/x_mark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.right {
+  height: 22rem;
+  width: 80%;
+  max-width: 39rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.right-window_name {
+  font-family: MyriadPro-Bold;
+  font-size: 1.75rem;
+  color: #0099DE;
+  text-align: left;
+  max-width: 30rem;
+  width: 100%;
+}
+
+.criterion_block,
+.sash_block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 30rem;
+}
+
+.criterion_block {
+  height: 4.5rem;
+  margin-top: 3rem;
+}
+
+.sash_block {
+  height: 5.5rem;
+  margin-top: 3.6rem;
+}
+
+.criterion_block-title,
+.sash_block-title {
+  font-family: MyriadPro-Semibold;
+  font-size: 1.5rem;
+}
+
+.criterion_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.criterion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 9rem;
+  margin-right: 2rem;
+}
+
+.criterion_3 {
+  margin-right: 0;
+}
+
+.criterion-input {
+  height: 1.06rem;
+  width: 1.06rem;
+  background-color: white;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  vertical-align: middle;
+  border: 2px solid #C6C6C6;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.criterion-input:checked {
+  background-color: #9DA3D7;
+}
+
+.criterion-name {
+  font-family: MyriadPro-Regular;
+  font-size: 1.1rem;
+}
+
+
+.sash_selector {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(../images/arrow.png);
+  background-repeat: no-repeat;
+  background-position: 95%;
+  background-size: 1.75rem;
+  height: 2.875rem;
+  width: 75%;
+  border: 1px solid #AEAEAE;
+  border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  -moz-border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  -webkit-border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  -o-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  padding-left: 1.5rem;
+}
+
+.phone_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 100%;
+}
+
+.phone_row-button,
+.phone_row-input {
+  border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  -moz-border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  -webkit-border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  -o-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+  border: none;
+  width: 13.5rem;
+  height: 3rem;
+}
+
+.phone_row-input {
+  width: 13.5rem;
+  background-color: #C6C6C6;
+  font-family: MyriadPro-Regular;
+  font-size: 1.1rem;
+  padding-left: 4rem;
+}
+
+.phone_row-input_wrapper {
+  position: relative;
+  margin: 0 0.65rem;
+}
+
+.phone_row-input_wrapper::before {
+  content: "";
+  background-image: url(../images/input_icon.png);
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background-repeat: no-repeat;
+  left: 2px;
+  bottom: 1px;
+  background-size: cover;
+}
+
+.phone_row-button {
+  background-color: #9DA3D7;
+  font-size: 1.25rem;
+  font-family: MyriadPro-Bold;
+  width: 17.5rem;
+  position: relative;
+  text-transform: uppercase;
+  margin: 0 0.65rem;
+}

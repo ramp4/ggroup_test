@@ -1,0 +1,25 @@
+.text_section {
+  width: 100%;
+  margin-bottom: 3.5rem;
+}
+
+.text_section-title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-family: MyriadPro-Semibold;
+  margin-top: 2.125rem;
+}
+
+.text_section-content {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 0.9rem;
+  top: 1.75rem;
+  font-family: MyriadPro-Regular;
+  line-height: 1.1rem;
+}
