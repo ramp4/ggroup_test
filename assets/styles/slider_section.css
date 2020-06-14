@@ -95,6 +95,10 @@
   background-image: url(../images/dot.png);
 }
 
+.controls-radio:hover {
+  cursor: pointer;
+}
+
 .controls-radio--active {
   height: 36px;
   width: 36px;
